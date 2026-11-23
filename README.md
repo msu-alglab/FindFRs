@@ -2,6 +2,8 @@
 
 FindFRs identifies frequent regions (FRs) in CuttleFish path data.
 
+This version of FindFRs improves memory efficiency versus the previous version. It expects the compressed DeBruijn graph to be built using [Cuttlefish](https://github.com/COMBINE-lab/cuttlefish) with the `-f3` option, which generates `.seq` and `.seg` files containing the graph nodes and paths through the graph.
+
 ## Requirements
 
 - C++17 compiler
