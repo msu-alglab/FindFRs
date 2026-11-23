@@ -50,6 +50,8 @@ Arguments:
 - `min_avg_length`: minimum average supporting-path length
 - `cuttlefish_prefix`: prefix for the input `.cf_seg` and `.cf_seq` files
 
+A new optional parameter, `minLen`, specifies the minimum average supporting path length for an FR to be reported, so short FRs can be filtered out.
+
 The output is written to a BED-like file named:
 
 ```text
